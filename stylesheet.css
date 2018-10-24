@@ -30,10 +30,91 @@ h4 {
   font-size: 22px;
 }
 
+ul {
+  columns: 1;
+}
+
 .content {
   width: auto;
   height: auto;
 }
+
+.CV {
+  margin: 0 15% 0 15%;
+}
+
+.titre {
+  text-align: center;
+  margin: 10% 0% 10% 0%
+}
+
+.liste {
+  float: none;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: space-evenly;
+}
+
+.gauche, .droite {
+  width: 40%;
+  height: 100%;
+}
+
+.gauche {
+  float: left;
+  margin-right: 10%;
+}
+
+.droite {
+  margin-right: 0;
+}
+
+.dessous {
+  width: 100%;
+  margin-top: 30px;
+  padding: 5px;
+  display: flex;
+  flex: auto;
+  align-items: stretch;
+  align-content: space-between;
+}
+
+.competences > h4 {
+  flex: auto;
+  text-align: center;
+}
+
+.dessous > p {
+  flex: auto;
+  text-align: center;
+  margin:5px;
+}
+
+.diplomes, .competences, .interrests {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+.diplomes {
+  flex-direction: row;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: space-evenly;
+}
+
+.interrests {
+  flex-direction: row;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: space-evenly;
+}
+
 
 .top {
   width: 100%;
